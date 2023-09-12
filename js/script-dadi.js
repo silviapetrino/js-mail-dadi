@@ -10,9 +10,11 @@ const gamingDice = [1,2,3,4,5,6];
 
 console.log(gamingDice);
 
+gamingDice.lenght
+
 const computerNumber = Math.floor(Math.random() * gamingDice.lenght);
 
 
-console.log(computerNumber);
+
 
 
