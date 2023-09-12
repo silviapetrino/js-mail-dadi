@@ -1,10 +1,3 @@
-//  Mail: chiedi all’utente la sua email, controlla che sia nella lista di chi può accedere, stampa un messaggio appropriato sull’esito del controllo;
-
-
-// -  creo una lista utenti registrati come dato di partenza;
-// -  creo una variabile const con un prompt per richiedere all'utente l'email personale;
-// - aggiungo un ciclo per la verifica stabilendo due condizioni (se l'utente è presente/assente quindi scrivo un messaggio diverso in pagina).
-
 
 const listaMailsUtentiRegistrati = [" "];
 
@@ -27,3 +20,6 @@ for (let i= 0; i < listaMailsUtentiRegistrati.length; i++) {
 
 const display = document.querySelector("#output");
 display.innerHTML = message;
+
+
+

@@ -9,7 +9,11 @@ Mail: chiedi all’utente la sua email, controlla che sia nella lista di chi pu�
 
 
 
+______________________________
 
 
 
 Gioco dei dadi: generare un numero random da 1 a 6, sia per il giocatore sia per il computer. Stabilire il vincitore, in base a chi fa il punteggio più alto.
+
+creo un array con per i 6 numeri
+creo una variabile prompt per chiedere all'utente quale num vuole scegliere
