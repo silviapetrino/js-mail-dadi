@@ -10,7 +10,7 @@
 // --1. creo il mio array
 
 
-const listaMailsUtentiRegistrati = ["ciao", "ciao"];
+const listaMailsUtentiRegistrati = [" "];
 console.log(listaMailsUtentiRegistrati);
 
 const mailUtente = prompt("Per verificare che tu sia registrato, inserisci il tuo indirizzo email");
