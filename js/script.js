@@ -6,26 +6,24 @@
 // - aggiungo un ciclo per la verifica stabilendo due condizioni (se l'utente è presente/assente quindi scrivo un messaggio diverso in pagina).
 
 
-
-// --1. creo il mio array
-
-
 const listaMailsUtentiRegistrati = [" "];
-console.log(listaMailsUtentiRegistrati);
+
 
 const mailUtente = prompt("Per verificare che tu sia registrato, inserisci il tuo indirizzo email");
-console.log(mailUtente);
+
 
 let message 
 
 for (let i= 0; i < listaMailsUtentiRegistrati.length; i++) {
+
  
   if (listaMailsUtentiRegistrati[i] === mailUtente) {
-    message = "sei registrato";
+    message = "La tua email " + mailUtente + "risulta registrata";
   } else {
-    message = "non sei registrato";
+    message = "La tua email " + mailUtente + " non risulta registrata";
   }
  
-  console.log(message);
-
 }
+
+const display = document.querySelector("#output");
+display.innerHTML = message;
