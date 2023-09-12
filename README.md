@@ -15,5 +15,8 @@ ______________________________
 
 Gioco dei dadi: generare un numero random da 1 a 6, sia per il giocatore sia per il computer. Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
-creo un array con per i 6 numeri
-creo una variabile prompt per chiedere all'utente quale num vuole scegliere
+
+1. estraggo dei numeri casuali inserendoli in variabili;
+2. confronto i numeri;
+3. stabilisco vincitore;
+4. stampo il risultato in pagina.
