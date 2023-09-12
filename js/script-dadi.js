@@ -11,14 +11,14 @@ let numeroPc = Math.round(Math.random()*5)+1;
 
 let numeroGiocatore = Math.round(Math.random()*5)+1;
 
-let messageWin = false;
 
 console.log(numeroPc);
 console.log(numeroGiocatore);
 
 if (numeroPc > numeroGiocatore) {
-  messageWin = true;
+
   console.log("ha vinto il pc")
 } else if (numeroPc == numeroGiocatore) {
   console.log("siete pari");
+
 } else console.log("hai vinto tu");
