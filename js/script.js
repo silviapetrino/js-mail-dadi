@@ -1,8 +1,6 @@
 
 const listaMailsUtentiRegistrati = ["utente@hotmail.it", "ciao@yahoo.com", "ciao2@yahoo.com"];
 
-console.log(listaMailsUtentiRegistrati);
-
 const mailUtente = prompt("Per verificare che tu sia registrato, inserisci il tuo indirizzo email");
 
 
@@ -20,7 +18,7 @@ for (let i= 0; i < listaMailsUtentiRegistrati.length; i++) {
 
   }
     
-  
+
 const display = document.querySelector("#output");
 display.innerHTML = message;
 
