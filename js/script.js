@@ -24,3 +24,6 @@ for (let i= 0; i < listaMailsUtentiRegistrati.length; i++) {
 const display = document.querySelector("#output");
 display.innerHTML = message;
 
+
+
+
